@@ -1,0 +1,25 @@
+{
+  "name": "lab-ryan-felix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./configtest.sh && eslint ./ && mocha",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xelif/lab-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xelif/lab-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Xelif/lab-boilerplate#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  }
+}
